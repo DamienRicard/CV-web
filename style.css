@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::after {
+    content: "";
+    background: url('pexels-photo-574069.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7; /* Changez cette valeur pour ajuster l'opacité */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;   
+  }
+
+.main-container{
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro {
+    height: 400px;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   margin-top: 50px;
+}
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name{
+    font-size: 53px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    color:rgb(44, 43, 41);
+}
+
+.title{
+    font-size: 45px;
+    margin-bottom: 70px;
+    font-weight: bold;
+    color:rgb(249, 242, 242);
+}
+
+.backend, .frontend{
+    height: 30px;width: 30px;
+}
+
+#icons{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    color: black;
+}
+
+.group1, .group2{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.icons{
+   font-size: 60px;
+}
+
+.fa-js:hover{
+    color:yellow;
+}
+
+.fa-php:hover{
+    color:rgb(42, 42, 157);
+}
+
+.fa-react:hover{
+    color: #61dbfb;
+}
+
+.fa-css3-alt:hover{
+    color:rgb(25, 25, 236);
+}
+
+.fa-database:hover{
+    color:rgb(13, 13, 177);
+}
+
+.fa-code:hover{
+    color:rgb(112, 226, 42);
+}
+
+h2{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(254, 250, 250);
+    margin: 0;
+    text-decoration: underline;
+}
+
+.a-propos{
+    width: 100%;
+    background-color: rgb(254, 250, 250);
+    margin: 0;
+}
+
+button{
+    background-color: chartreuse;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+
+
+
+
+/* ---------- medias queries ---------- */
+
+@media screen and (min-width: 768px){
+
+}
